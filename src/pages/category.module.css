@@ -1,0 +1,121 @@
+.cats {
+    width: 70%;
+    margin: auto;
+    margin-top: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 10px;
+    min-height: 200px;
+    justify-content: center;
+    text-align: center;
+}
+
+.titleCat {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 40px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.prods {
+    background-color: rgb(254, 249, 249);
+    border: 1px solid wheat;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    padding-top: 15px;
+    margin: 10px;
+    width: 200px;
+    min-height: 300px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 1.2s;
+}
+
+.prods:hover {
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+    transform: scale(1.10);
+}
+
+.imagePs {
+    width: 124px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+
+.pricePs {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.add {
+    height: 41px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+
+    border: 0;
+    text-align: center;
+    padding: 14px;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-sizing: border-box;
+    width: 100px;
+    color: #ffffff;
+    background-color: #36a2eb;
+    border-radius: 8px;
+    font-family: "proxima-nova-soft", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    transition: box-shadow 200ms ease-out;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.btDiv {
+    box-sizing: border-box;
+    padding-top: 5px;
+    height: 41px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+
+.addC {
+    width: 25px;
+    height: 25px;
+    border: 0;
+    background-color: #36a2eb;
+    color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.removeC {
+    width: 25px;
+    height: 25px;
+    border: 0;
+    background-color: #36a2eb;
+    padding-bottom: 5px;
+    color: white;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+.titlePs {
+    text-align: center;
+    margin: auto;
+}

@@ -1,0 +1,178 @@
+.bigCart {
+    margin-top: -35px;
+    background-color: #DBDFFD;
+    position: sticky;
+    top: 100px;
+    width: 400px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 20px;
+    height: 93vh;
+    min-height: 550px;
+    border-right: 1px solid;
+    box-shadow: 10px 0 5px -2px #888;
+    margin-right: 40px;
+
+    overflow-x: auto;
+    /* Hide horizontal scrollbar */
+    overflow-y: auto;
+    /* Add vertical scrollbar */
+}
+
+.smallCart {
+    display: none;
+}
+
+
+h2 {
+    text-align: center;
+    height: 30px;
+    margin: 20px;
+}
+
+
+
+.cartDiv {
+    /* height: 43vw;
+    min-height: 600px; */
+    height: calc(90vh - (30px + (20px*2) + 35.556px));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.itemCard {
+    margin-bottom: 10px;
+    padding: 5px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid aqua;
+}
+
+.it {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.imageCart {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.titleCart {
+    font-size: 15px;
+    margin-left: 5px;
+    color: gray;
+}
+
+.priceCart {
+    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.addCart {
+    width: 20px;
+    height: 20px;
+    border: 0;
+    background-color: #36a2eb;
+    color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.removeCart {
+    width: 20px;
+    height: 20px;
+    border: 0;
+    background-color: #36a2eb;
+    padding-bottom: 5px;
+    color: white;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+.sum {
+    font-weight: 600;
+}
+
+.prNum {
+    font-weight: 600;
+
+}
+
+.electronics {
+    background-color: #888888;
+}
+
+.closeCartButton {
+    margin-top: 20px;
+
+    background-color: #111827;
+    border: 1px solid transparent;
+    border-radius: .75rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex: 0 0 auto;
+    font-family: "Inter var", ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    padding: .75rem 1.2rem;
+    text-align: center;
+    text-decoration: none #6B7280 solid;
+    text-decoration-thickness: auto;
+    transition-duration: .2s;
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+}
+
+.closeCartButton:hover {
+    background-color: #374151;
+}
+
+.closeCartButton:focus {
+    box-shadow: none;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .bigCart {
+        display: none;
+    }
+
+    .smallCart {
+        margin: auto;
+        margin-top: -35px;
+        background-color: #DBDFFD;
+        text-align: center;
+        padding: 10px;
+        box-sizing: border-box;
+        min-height: 93vh;
+        display: block;
+        width: 100vw;
+
+        overflow-x: auto;
+        /* Hide horizontal scrollbar */
+        overflow-y: auto;
+        /* Add vertical scrollbar */
+    }
+
+}
